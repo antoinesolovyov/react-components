@@ -1,0 +1,19 @@
+.button-wrapper {
+  position: relative;
+}
+
+.button-wrapper .button {
+  width: 120px;
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+}
+
+.button-wrapper .button:active {
+  background: pink;
+}

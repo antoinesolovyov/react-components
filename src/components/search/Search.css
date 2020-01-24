@@ -1,0 +1,35 @@
+.search-wrapper {
+  position: relative;
+}
+
+.search-wrapper .search-icon-wrapper {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+.search-wrapper .search {
+  width: 384px;
+  padding: 10px 46px 10px 46px;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.search-wrapper .search:focus {
+  border: 2px solid pink;
+}
+
+.search-wrapper .search::placeholder {
+  color: black;
+}
+
+.search-wrapper .camera-icon-wrapper {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
